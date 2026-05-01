@@ -1,0 +1,11 @@
+resource_group_name = "tfstate"
+location            = "indonesiacentral"
+tags = {
+  environment = "dev"
+  project     = "tfstate"
+}
+
+storage_account_name   = "tfstatesa"
+storage_container_name = "tfstate-sc"
+
+subscription_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
