@@ -1,0 +1,4 @@
+resource_group_name  = "tfstate"
+storage_account_name = "tfstatedevops1"
+container_name       = "tfstate-sc"
+key                  = "azure/dev/terraform.tfstate"

@@ -1,0 +1,8 @@
+project_name    = "multicloud-iac"
+location        = "indonesiacentral"
+environment     = "dev"
+subscription_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+
+tags = {
+  owned_by = "devops-team"
+}
