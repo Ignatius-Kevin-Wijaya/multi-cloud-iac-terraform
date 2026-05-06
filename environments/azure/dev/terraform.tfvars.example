@@ -1,7 +1,13 @@
-project_name    = "multicloud-iac"
-location        = "indonesiacentral"
-environment     = "dev"
-subscription_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+project_name       = "multicloud-iac"
+location           = "indonesiacentral"
+environment        = "dev"
+subscription_id    = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+vnet_address_space = ["10.10.0.0/16"]
+
+subnet_prefixes = {
+  app  = "10.10.1.0/24"
+  data = "10.10.2.0/24"
+}
 
 tags = {
   owned_by = "devops-team"

@@ -17,3 +17,11 @@ variable "subscription_id" {
 variable "tags" {
   type = map(string)
 }
+
+variable "vnet_address_space" {
+  type = list(string)
+}
+
+variable "subnet_prefixes" {
+  type = map(string)
+}

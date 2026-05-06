@@ -1,5 +1,6 @@
 locals {
   resource_group_name = "rg-${var.project_name}-${var.environment}"
+  vnet_name           = "vnet-${var.project_name}-${var.environment}"
 
   common_tags = merge(
     {
